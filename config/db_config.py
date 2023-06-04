@@ -5,8 +5,8 @@ class DBConfig(object):
     user = r'restuser'
     password = r'R35Tus#r'
     database = r'restaurant'
-    host = '101.35.152.20'
-    port = '35432'
+    host = 'localhost'  # '101.35.152.20'
+    port = '5432'
 
     # 数据库url
     SQLALCHEMY_DATABASE_URI = f'{db_type}://{user}:{password}@{host}:{port}/{database}'

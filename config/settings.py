@@ -14,9 +14,9 @@ KEY = r'734&jai<,oqe).ac'
 
 
 REDIS_USER = ''
-REDIS_PWD = r"R3D1Su@er"
-REDIS_HOST = r'101.35.152.20'
-REDIS_PORT = r'16379'
+REDIS_PWD = ''  # r"R3D1Su@er"
+REDIS_HOST = r'localhost'
+REDIS_PORT = r'6379'
 REDIS_DB = 0
 
 REDIS_URL=f"redis://{REDIS_USER}:{REDIS_PWD}@{REDIS_HOST}:{REDIS_PORT}/{REDIS_DB}"
